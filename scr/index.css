@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(220, 218, 218);
+}
+
+.contenet{
+    text-align: center;
+}
+
+.heading{
+    font-size: bold;
+    text-align: center;
+}
+
+.underline{
+    background-color:purple;
+    height: 4px;
+    width: fit;
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-img{
+    position: absolute;
+    top: -7rem;
+    z-index: 10;
+}
+
+.img{  
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    z-index: 25;
+}
+
+.circle{
+    width: 140px;
+    height: 140px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    top: -1rem;
+    left: 2rem;
+    z-index: -1;
+}
+
+.name-container{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.job-container{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.job{
+    color: rgb(112, 16, 112);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.quotes{
+    padding: 15px;
+    margin: auto;
+    color: purple;
+    margin-top: 5px;
+}
+
+.desc{
+    text-align: center;
+    margin-top: 4px;
+    color: rgb(45, 44, 44);
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 4px;
+    font-size: bold;
+    justify-content: center;
+}
+
+.icons{
+    cursor: pointer;
+    color: rgb(200, 43, 200);
+    font-size: x-large;
+    background-color: white;
+}
+
+.icons:hover{
+    color: purple;
+}
+
+.btn{
+    background-color: rgb(200, 43, 200);
+    padding: 10px 2px;
+    font-size: bold;
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.btn:hover{
+    background-color: purple;
+    transition: all 100;
+    cursor: pointer;
+}
+
+.card-container{
+    width: 55vw;
+    height: 45vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all;
+    transition-duration: 100;
+}
+
+.card-container:hover{
+    box-shadow: 4px 4px 3px rgb(169, 169, 169);
+}
